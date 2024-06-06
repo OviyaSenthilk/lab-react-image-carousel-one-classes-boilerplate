@@ -1,1 +1,25 @@
 /* write your carousel css in this file */
+*{
+    margin:0;
+    padding:0;
+}
+.slide{
+display:flex;
+height:600px;
+width: 500px;
+padding: 30px;
+border:30px;
+margin:50px;
+}
+.Arrow{
+    height:100px;
+    width:200px;
+    border:solid black;
+    margin:20px;
+    background-color: rgb(73, 116, 195);
+    justify-content: center;
+}
+.data{
+    padding:50px;
+    margin:50px;
+}
